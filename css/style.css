@@ -1,0 +1,71 @@
+body {
+    font-family: "Limelight", cursive;
+    width: 100wv;
+    text-align: center;
+}
+
+#text-container {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+h1 {
+    background-color: hsl(360, 100%, 70%);
+    margin: 5rem 0.5rem 0;
+    color: hsl(351, 100%, 86%);
+    margin: 2rem;
+    width: 5rem;
+    aspect-ratio: 1/1;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(
+        hsl(360, 100%, 70%),
+        hsl(0, 81%, 77%),
+        hsl(351, 100%, 86%)
+    );
+}
+
+button {
+    margin: 10px;
+    font-family: "Limelight", cursive;
+    font-size: 20px;
+    color: hsl(360, 100%, 70%);
+}
+
+#coffee-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#battery {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.battery-segment {
+    width: 0px;
+    height: 35px;
+    background-color: hsl(120, 68%, 82%);
+    float: left;
+}
+
+#battery-body {
+    width: 70px;
+    height: 35px;
+    border: solid hsl(360, 100%, 70%) 5px;
+    float: left;
+    border-radius: 5%;
+}
+
+#battery-head {
+    width: 10px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: hsl(360, 100%, 70%);
+    float: left;
+}
